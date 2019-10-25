@@ -1,5 +1,5 @@
 {
-  "name": "mevn",
+  "name": "GlobalSchoolReport",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,14 +10,14 @@
     "static": "npm run build && npm run dev:serve"
   },
   "dependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.19.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
     "debug": "~2.6.9",
     "dotenv": "^4.0.0",
     "express": "^4.16.3",
-    "mongoose": "^4.12.3",
+    "mongoose": "^5.7.7",
     "nodemon": "^1.17.5",
     "serve-favicon": "~2.4.5",
     "trunks-log": "^2.0.2",
@@ -31,7 +31,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
     "cross-env": "^5.0.5",
-    "css-loader": "^0.28.7",
+    "css-loader": "^3.2.0",
     "file-loader": "^1.1.4",
     "npm-run-all": "^4.1.1",
     "style-loader": "^0.13.1",
@@ -40,7 +40,7 @@
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^2.11.5"
   },
   "eslintConfig": {
     "root": true,
